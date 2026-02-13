@@ -1,0 +1,23 @@
+.mainbutton {
+    position: fixed;
+    right: 1.6cm;
+    top: 1.6cm;
+    scale: 4;
+    width: 30px;
+    height: 30px;
+    overflow: hidden;
+    image-rendering: pixelated;
+}
+
+.mainbutton_spritesheet {
+    animation: rotatemoonbutton 7s steps(60) infinite
+}
+
+@keyframes rotatemoonbutton {
+    from {
+        transform: translate3d(0px,0,0);
+    }
+    to {
+        transform: translate3d(-100%,0,0);
+    }
+}
