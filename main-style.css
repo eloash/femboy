@@ -39,7 +39,7 @@
 
 
 body {
-    background-image: url(/images/Stars_Background_Black.png);
+    background-image: url(/images/cute.jpg);
     height: 100%;
     position: static;
     margin: auto;
@@ -54,6 +54,7 @@ frameborder {
     bottom: 0.5%;
     pointer-events: none;
 }
+
 
 .box {
     width: 62%;
