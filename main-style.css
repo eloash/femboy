@@ -9,35 +9,6 @@
     left: 5%;
 }
 
-.leftlist {
-    background-color: rgba(190, 144, 27, 0.651);
-    width: 15%;
-    height: 150%;
-    position: absolute;
-    left: 3%;
-    top: 20%;
-    font-family: japanfont;
-}
-@font-face {
-    font-family: jersey25;
-    src: url(/fonts/Jersey25-Regular.ttf);
-}
-@font-face {
-    font-family: anton;
-    src: url(/fonts/Anton-Regular.ttf);
-}
-
-.mainbox {
-    background-color: rgba(47, 167, 47, 0.671);
-    width: 62%;
-    height: 150%;
-    position: absolute;
-    left: 20%;
-    top: 20%;
-    font-family: japanfont;
-}
-
-
 body {
     background-image: url(/images/cute.jpg);
     height: 100%;
@@ -47,7 +18,7 @@ body {
 
 frameborder {
     position: fixed;
-    border: 5px solid rgb(51, 226, 139);
+    border: 5px solid rgb(244, 128, 173);
     left: 0.5%;
     right: 0.5%;
     top: 0.5%;
@@ -55,21 +26,74 @@ frameborder {
     pointer-events: none;
 }
 
+ a:link, a:visited, a:hover, a:active {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+  }
 
-.box {
-    width: 62%;
-    background-color: darkred;
-    font-size: x-large;
-    font-family: jersey25;
-    color: aquamarine;
+box {
+    position: fixed;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    right: 5%;
+    top: 2%;
+    margin: 2%;
+}
+box div {
+    background-color: aquamarine;
+    width: fit-content;
+    padding: 0.5em 1em;
+    margin-left: 1em;
+    margin-right: 1em;
+    border-radius: 30px
+    
+}
+
+images {
+    display: block;
     position: absolute;
-    left: 20%;
-    top: 5%;
+    background-color: blueviolet;
+    left: 4%;
+    right: 4%;
+    top: 16%;
+    bottom: 4%;
+}
+
+.images {
+    display: flex;
+    flex-wrap: wrap;
+    
+    
+}
+
+
+
+.bg {
+    border-radius: 30px;
+    background-color: darkred;
+    height: fit-content;
 }
 
 @font-face {
     font-family: japanfont;
     src: url(/fonts/ATTFShinGoProRegular.ttf);
+}
+@font-face {
+    font-family: jersey25;
+    src: url(/fonts/Jersey25-Regular.ttf);
+}
+@font-face {
+    font-family: anton;
+    src: url(/fonts/Anton-Regular.ttf);
+}
+@font-face {
+    font-family: Minecraft;
+    src: url(/fonts/Minecraft.ttf);
+}
+
+.barbutton {
+    font-family: japanfont;
 }
 
 guestbook {
@@ -78,44 +102,7 @@ guestbook {
     top: 20%;
 }
 
-
-
 h1 {
     font-family: Minecraft;
 }
 
-@font-face {
-    font-family: Minecraft;
-    src: url(/fonts/Minecraft.ttf);
-}
-
-.audiobutton {
-    position: absolute;
-    top: 2%;
-    left: 2%;
-}
-
-
-.mainbutton {
-    position: fixed;
-    right: 8%;
-    top: 8%;
-    scale: 4;
-    width: 30px;
-    height: 30px;
-    overflow: hidden;
-    image-rendering: pixelated;
-}
-
-.mainbutton_spritesheet {
-    animation: rotatemoonbutton 7s steps(60) infinite
-}
-
-@keyframes rotatemoonbutton {
-    from {
-        transform: translate3d(0px,0,0);
-    }
-    to {
-        transform: translate3d(-100%,0,0);
-    }
-}
