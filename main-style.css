@@ -8,7 +8,12 @@
     top: 5%;
     left: 5%;
 }
-
+.title1 {
+    color: rgb(108, 39, 246);
+    position: absolute;
+    top: 5%;
+    left: 5%;
+}
 
 
 frameborder {
@@ -62,7 +67,7 @@ images {
     
 }
 
-iframe { border: none !important; }
+/*iframe { border: none !important; }*/
 
 .bg {
     border-radius: 30px;
