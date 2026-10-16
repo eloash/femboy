@@ -2,12 +2,12 @@
 <html lang="en">
     <head>
         <title>
-            FEMBOY
+            ADACHI REI 
         </title>
         <link rel="stylesheet" href="/main-style.css">
         
         <div class="title1">
-            <h1>Do you like scissors?</h1>
+            <h1>ADACHI REI?!</h1>
         </div>
     </head>
 
@@ -32,7 +32,7 @@
                 <a href="/">
                     <div class="barbutton">Femboys</div>
                 </a>
-                <a href="/otherfiles/ image (52).jpeg">
+                <a href="/otherfiles/adachireiyuri">
                     <div class="barbutton">ADACHI REI YURI</div>
                 </a>
             </box>
@@ -55,7 +55,7 @@
             </div>
         </images>
         <style>
-            .yuri {
+            .adachireiyuri {
                 display: grid;
                 grid-auto-flow: row dense;
                 -ms-grid-row: auto;
